@@ -27,9 +27,9 @@ notes from the now-retired auto-generated corpus).
   (`eval_core.py`). Unmet wins without a fail = `draw`. This is the
   single highest-leverage discrimination axis in the codebase.
 
-## P0 — already in this commit
+## P0 — already shipped
 
-The "P1 commit" landed three things that needed no new predicates:
+Landed in [PR #6 — *P1: scenario fail_conditions + new long-horizon pack*](https://github.com/yxc20089/OpenRA-Bench/pull/6). Three changes that needed no new predicates:
 
 1. **`rush-hour` easy/medium hardened.** Both levels now require a
    `units_lost_lte` attrition cap and have `fail_condition` on
